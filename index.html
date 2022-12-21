@@ -9,10 +9,10 @@
     <title>Portofolio Rajih Kharissuha</title>
     <script>
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-  document.documentElement.classList.add('dark')
-} else {
-  document.documentElement.classList.remove('dark')
-}
+        document.documentElement.classList.add('dark')
+        } else {
+        document.documentElement.classList.remove('dark')
+        }
     </script>
 </head>
 <body>
@@ -44,6 +44,9 @@
                                 <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portofolio</a>
                             </li>
                             <li class="group">
+                                <a href="#pengalaman" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Pengalaman</a>
+                            </li>
+                            <li class="group">
                                 <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
                             </li>
                             <!-- <li class="group">
@@ -54,7 +57,7 @@
                             </li> -->
                             <li class="flex items-center pl-8">
                                 <div class="flex">
-                                    <span class="mr-2 text-sm text-slate-500">light</span>
+                                    <span class="mr-2 text-sm text-slate-500 ">light</span>
                                     <input type="checkbox" class="hidden" id="dark-toggle">
                                     <label for="dark-toggle">
                                         <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
@@ -111,7 +114,12 @@
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3 ">Tentang Saya</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">Bio</h2>
-                    <p class="font-medium text-base text-justify text-secondary max-w-xl lg:text-lg">Saya adalah mahasiswa Politeknik Negeri Jember jurusan Teknologi Informasi prodi Teknik Informatika, saya sekarang berada di semester VI dimana saya telah mempelajari berbagai macam dasar bahasa pemograman sehingga saya telah mengetahui minat saya sebagai Backend Developer dimana saya telah mengikuti beberapa bootcamp terutama dengan bahasa pemograman Javascript untuk melatih cara berfikir logic saya untuk menyelesaikan suatu masalah yang ada.</p>
+                    <p class="font-medium text-base text-justify text-secondary max-w-xl lg:text-lg">Saya adalah mahasiswa Politeknik Negeri Jember jurusan Teknologi Informasi prodi 
+                    Teknik Informatika, saya sekarang berada di semester VII dimana saya telah mempelajari 
+                    berbagai macam dasar bahasa pemograman sehingga saya telah mengetahui minat saya sebagai 
+                    Backend Developer dimana saya telah mengikuti beberapa bootcamp terutama dengan bahasa 
+                    pemograman Javascript untuk melatih cara berfikir logic serta meningkatkan hard skill dan soft skill 
+                    sehingga dapat menyelesaikan suatu permasalahan yang ada.</p>
                 </div>
                 <!-- kiri -->
                 <div class="w-full px-4 lg:w-1/2 mb-4 lg:text-3xl">
@@ -147,10 +155,26 @@
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/Project_Binar.jpg" alt="Landing Page" width="w-full">
+                        <img src="dist/img/Project_Binar.jpg" alt="Landing Page"  width="w-full">
                     </div>
                         <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Tugas Akhir Binar</h3>
-                        <p class="font-medium text-base text-justify text-secondary">Pada project ini saya mengerjakan pada bagian Backend untuk membuat API sesuai kebutuhan dimana saya mendapatkan pengerjaan pada penawaran baik dari buyer ataupun seller. Lebih lengkapnya dapat click link gitlab yang telah disediakan.</p>
+                        <h2 class="font-medium text-base text-justify text-secondary">CRUD Transaction</h2>
+
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- Create Get API Penawaran Seller</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Create API Penawaran Buyer to Seller</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Create Update API Penawaran Status</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Create Delete API Penawaran</li>
+                        </ul>  
+                        <br>
+                        <h2 class="font-medium text-base text-justify text-secondary">CRUD Profile</h2>
+
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- Create Get API Detail Profile</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Create Update API Detail Profile</li>
+                        </ul>  
+                        <br>
+                        
                         <a href="https://gitlab.com/ruhullahrezamk/final-project-kelompok-5" class="font-bold text-primary" target="_blank">Link Gitlab</a>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
@@ -158,15 +182,39 @@
                         <img src="dist/img/Project_SoeSoe.png" alt="Landing Page" width="w-full">
                     </div>
                         <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website Soesoe</h3>
-                        <p class="font-medium text-base text-justify text-secondary">Pada project ini saya mengerjakan pembuatan Website landing page sesuai kebutuhan yang diinginkan pihak PT.Soesoe.</p>
-                </div>
+                        <p class="font-medium text-base text-justify text-secondary">Project ini saya mengerjakan pembuatan Website landing page sesuai kebutuhan yang diinginkan pihak PT.Soesoe guna menampilkan product terbaru.</p>
+                        <br>
+                        <a href="http://soesoe.id/" class="font-bold text-primary" target="_blank">Link Website</a>
+                    </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/HrCerdas.png" alt="Landing Page" width="w-full">
                     </div>
                         <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website HrCerdas</h3>
-                        <p class="font-medium text-base text-justify text-secondary">Pada project ini saya mengerjakan pembuatan API</p>
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- CRU Login & Register</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Lowongan Pekerjaan</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Profile Pelamar</li>
+                        </ul>  
+                        <br>
+
                         <a href="http://hrcerdas.id/" class="font-bold text-primary" target="_blank">Link Website</a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/headhunter.png" alt="Landing Page" width="w-full">
+                    </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website HR</h3>
+
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- CRU Login & Register</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Lowongan Pekerjaan</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRU Analytics</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Profile Perusahaan</li>
+                        </ul>  
+                        <br>
+
+                        <a href="http://headhunter.hrcerdas.id" class="font-bold text-primary" target="_blank">Link Website</a>
                 </div>
             </div>
             
@@ -195,6 +243,62 @@
         </div>
     </section>
     <!-- Client End -->
+
+    <!-- pengalaman Start -->
+    <section id="pengalaman" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-lg mx-auto text-center mb-16">
+                    <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Pengalaman</h4>
+                    <!-- <h2 class="font-semibold text-lg  text-dark  mb-4">Cerita Terkini</h2> -->
+                    <!-- <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit libero aspernatur eos. Voluptatum quam, doloremque repudiandae fugit id recusandae consequuntur sint blanditiis, numquam ipsam dolorum assumenda error? Animi, recusandae?</p> -->
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap">
+                <!-- <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="" alt="programing" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Judul</h3>
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit saepe maiores? Necessitatibus repellendus saepe minima et ipsam inventore, accusantium consequatur nemo vero odit quas, vitae praesentium itaque sed facilis.</p>
+                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <!-- <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="" alt="programing" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Judul</h3>
+                            <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit saepe maiores? Necessitatibus repellendus saepe minima et ipsam inventore, accusantium consequatur nemo vero odit quas, vitae praesentium itaque sed facilis.</p>
+                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3 justify-center justify-items-center justify-self-center">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="dist/img/andromedia.png" alt="programing" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Andromedia</h3>
+                            <p class="text-base text-secondary font-semibold">Agustus 2022 - Desember 2022</p>
+                            <p class="font-medium text-base text-secondary mb-6">Surabaya</p>
+
+                            <ul>
+                                <li class="font-medium text-base text-justify text-secondary">- Develop & Maintain CRP Kelava Mobile with React Native (Android) </li>
+                                <li class="font-medium text-base text-justify text-secondary">- Develop CRP-Mall Mobile with React Native (Android) </li>
+                                <li class="font-medium text-base text-justify text-secondary">- Develop Lab-Online Mobile with React Native (Android) </li>
+                            </ul> 
+                            <br> 
+                            <!-- <a href="https://andromedia.co.id/" target="_blank" class="font-medium text-sm text-white bg-primary py-2 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- pengalaman End -->
 
     <!-- blog Start -->
     <!-- <section id="blog" class="pt-36 pb-32 bg-slate-100">
@@ -253,7 +357,7 @@
                         <h2 class="font-semibold text-lg  text-dark  mb-4">Hubungi Saya</h2>
                         <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit libero aspernatur eos. Voluptatum quam, doloremque repudiandae fugit id recusandae consequuntur sint blanditiis, numquam ipsam dolorum assumenda error? Animi, recusandae?</p>
                     </div>
-                </div> -->
+                </div>  -->
 
                 <!-- Form Contact Start-->
                 <!-- <form action="">
