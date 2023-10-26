@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS import Tailwind -->
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Portofolio Rajih Kharissuha</title>
     <script>
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -35,19 +36,22 @@
                     <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-400">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Beranda</a>
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Home</a>
                             </li>
                             <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Tentang Saya</a>
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">About Me</a>
                             </li>
                             <li class="group">
                                 <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portofolio</a>
                             </li>
                             <li class="group">
-                                <a href="#pengalaman" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Pengalaman</a>
+                                <a href="#pengalaman" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Experience</a>
                             </li>
                             <li class="group">
                                 <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Skill" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Skills</a>
                             </li>
                             <!-- <li class="group">
                                 <a href="#Blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Blog</a>
@@ -84,16 +88,16 @@
             <div class="flex flex-wrap">
                 <!-- Sebelah Kiri -->
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Semuanya 👋, Perkenalkan Nama Saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white"><a href="https://drive.google.com/file/d/1OiJMldrjVAxFxhrkm8PO48dzOimt0ch4/view?usp=sharing" target="_blank">Rajih Kharissuha</a></span> </h1>
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Hello evryone 👋, Allow me to introduce myself <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white"><a href="https://drive.google.com/file/d/1OiJMldrjVAxFxhrkm8PO48dzOimt0ch4/view?usp=sharing" target="_blank">Rajih Kharissuha</a></span> </h1>
                     <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl dark:text-white">Backend Developer</h2>     
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Semua di awali dari belajar pemograman dasar untuk mencapai hal yang lebih besar.</p>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Everything begins with learning basic programming to achieve greater things.</p>
 
-                    <a href="https://wa.link/6oz3a2" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+                    <a href="https://wa.link/6oz3a2" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact me</a>
                 </div>
                  <!-- Sebelah Kanan -->
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-9 lg:right-0">
-                        <img src="dist/img/Profil.png" alt="Rajih Kharissuha" class="relative z-10 max-w-full mx-auto"/>
+                        <img src="dist/img/Profile-barus.png" alt="Rajih Kharissuha" class="relative z-10 max-w-full mx-auto "/>
                         <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#22D3EE" d="M42.3,-45.6C55.5,-39.3,67.4,-26.6,70.9,-11.8C74.3,3,69.3,20.1,59.2,30.9C49.1,41.7,33.8,46.3,18.3,53.4C2.7,60.4,-13,69.8,-25.8,66.9C-38.6,64,-48.3,48.8,-55.4,33.5C-62.5,18.1,-67,2.8,-67.5,-15C-68,-32.7,-64.6,-52.8,-52.7,-59.4C-40.8,-65.9,-20.4,-59,-2.9,-55.5C14.5,-52,29,-52,42.3,-45.6Z" transform="translate(100 100) scale(1.1)" />
@@ -112,19 +116,17 @@
             <div class="flex flex-wrap">
                 <!-- kanan -->
                 <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <h4 class="font-bold uppercase text-primary text-lg mb-3 ">Tentang Saya</h4>
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3 ">About Me</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">Bio</h2>
-                    <p class="font-medium text-base text-justify text-secondary max-w-xl lg:text-lg">Saya adalah mahasiswa Politeknik Negeri Jember jurusan Teknologi Informasi prodi 
-                    Teknik Informatika, saya sekarang berada di semester VII dimana saya telah mempelajari 
-                    berbagai macam dasar bahasa pemograman sehingga saya telah mengetahui minat saya sebagai 
-                    Backend Developer dimana saya telah mengikuti beberapa bootcamp terutama dengan bahasa 
-                    pemograman Javascript untuk melatih cara berfikir logic serta meningkatkan hard skill dan soft skill 
-                    sehingga dapat menyelesaikan suatu permasalahan yang ada.</p>
+                    <p class="font-medium text-base text-justify text-secondary max-w-xl lg:text-lg">I am a Backend Engineer with two year of experience in application development. Proficient in NodeJS, I excel in-depth
+                        analysis, and a creative problem solving. I’ve implemented microservices to enhance user experience. I’m seeking
+                        opportunities in a company that values innovation and creativity and I’m versatile in both backend and frontend
+                        development.</p>
                 </div>
                 <!-- kiri -->
                 <div class="w-full px-4 lg:w-1/2 mb-4 lg:text-3xl">
-                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:pt-10 dark:text-white">Yuk Kepoin Saya</h3>
-                    <p class="font-medium text-base text-justify text-secondary mb-6 lg:text-lg">Kalian dapat mengetahui tentang diri saya melalui beberapa sosial media yang saya miliki dan beberapa project yang telah saya kerjakan. <br> Klick Icon ⬇️</p>
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:pt-10 dark:text-white">Come and check me out</h3>
+                    <p class="font-medium text-base text-justify text-secondary mb-6 lg:text-lg">You can learn about me through some of the social media I have and some projects I have worked on.<br> Klick Icon ⬇️</p>
                     <div class="flex items-center">
                         <!-- instagram SVG -->
                         <a href="https://www.instagram.com/rajhk_/" target="blank" class="w-9 h-9 mr-3 border-collapse flex justify-center items-center border rounded-xl border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
@@ -147,7 +149,7 @@
             <div class="w-full px-4">
                 <div class="max-w-lg mx-auto text-center mb-16">
                     <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Portofolio</h4>
-                    <h2 class="font-semibold text-lg  text-dark  mb-4 dark:text-white">Project yang Pernah Saya Buat</h2>
+                    <h2 class="font-semibold text-lg  text-dark  mb-4 dark:text-white">Projects that I've Created</h2>
                     <!-- <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit libero aspernatur eos. Voluptatum quam, doloremque repudiandae fugit id recusandae consequuntur sint blanditiis, numquam ipsam dolorum assumenda error? Animi, recusandae?</p> -->
                 </div>
             </div>
@@ -157,22 +159,20 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/Project_Binar.jpg" alt="Landing Page"  width="w-full">
                     </div>
-                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Tugas Akhir Binar</h3>
-                        <h2 class="font-medium text-base text-justify text-secondary">CRUD Transaction</h2>
+                        <h4 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Final Project Secondhand</h4>
+                        <p class="font-medium text-base text-justify text-secondary">Secondhand is an e-commerce application specifically designed for selling used items. It includes basic e-commerce features such as adding products, price negotiation, and a shopping cart. This application is built using ReactJS, Express, PostgreSQL, and deployed using Heroku and Vercel.</p>
+                        
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Task :</h3>
 
                         <ul>
-                            <li class="font-medium text-base text-justify text-secondary">- Create Get API Penawaran Seller</li>
-                            <li class="font-medium text-base text-justify text-secondary">- Create API Penawaran Buyer to Seller</li>
-                            <li class="font-medium text-base text-justify text-secondary">- Create Update API Penawaran Status</li>
-                            <li class="font-medium text-base text-justify text-secondary">- Create Delete API Penawaran</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Get API Penawaran Seller</li>
+                            <li class="font-medium text-base text-justify text-secondary">- API Penawaran Buyer to Seller</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Update API Penawaran Status</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Delete API Penawaran</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Get API Detail Profile</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Update API Detail Profile</li>
                         </ul>  
-                        <br>
-                        <h2 class="font-medium text-base text-justify text-secondary">CRUD Profile</h2>
-
-                        <ul>
-                            <li class="font-medium text-base text-justify text-secondary">- Create Get API Detail Profile</li>
-                            <li class="font-medium text-base text-justify text-secondary">- Create Update API Detail Profile</li>
-                        </ul>  
+                         
                         <br>
                         
                         <a href="https://gitlab.com/ruhullahrezamk/final-project-kelompok-5" class="font-bold text-primary" target="_blank">Link Gitlab</a>
@@ -182,19 +182,25 @@
                         <img src="dist/img/Project_SoeSoe.png" alt="Landing Page" width="w-full">
                     </div>
                         <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website Soesoe</h3>
-                        <p class="font-medium text-base text-justify text-secondary">Project ini saya mengerjakan pembuatan Website landing page sesuai kebutuhan yang diinginkan pihak PT.Soesoe guna menampilkan product terbaru.</p>
+                        <p class="font-medium text-base text-justify text-secondary">I created a landing page website for the Soesoe product to explain what Soesoe is and the products being sold, along with product descriptions. It was built using HTML, CSS, and JS.</p>
                         <br>
-                        <a href="http://soesoe.id/" class="font-bold text-primary" target="_blank">Link Website</a>
-                    </div>
+                        <!-- <a href="http://soesoe.id/" class="font-bold text-primary" target="_blank">Link Website</a> -->
+                </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/HrCerdas.png" alt="Landing Page" width="w-full">
                     </div>
-                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website HrCerdas</h3>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">HrCerdas</h3>
+
+                        <p class="font-medium text-base text-justify text-secondary">Hr-Cerdas is a recruiter application designed to connect job seekers and HR professionals. It includes basic features such as posting job openings, viewing applicant profiles, and applying for job positions. This application is built using ReactJS, Express, MongoDB, and is deployed using a VPS.</p>
+
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Task :</h3>
                         <ul>
                             <li class="font-medium text-base text-justify text-secondary">- CRU Login & Register</li>
                             <li class="font-medium text-base text-justify text-secondary">- CRUD Lowongan Pekerjaan</li>
                             <li class="font-medium text-base text-justify text-secondary">- CRUD Profile Pelamar</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRU Analytics</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Profile Perusahaan</li>
                         </ul>  
                         <br>
 
@@ -202,22 +208,66 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/headhunter.png" alt="Landing Page" width="w-full">
+                        <img src="dist/img/ECCI.png" alt="Landing Page" width="w-full">
                     </div>
-                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Project Website HR</h3>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">ECCI</h3>
 
+                        <p class="font-medium text-base text-justify text-secondary">ECCI (Emergency Call Center Indonesia) is a web-based application for making quick emergency calls where a single emergency call can summon multiple forms of assistance such as the police and fire department. It features Speech to Text, Real-Time chat, and G-map services. The application is built using ReactJS, Golang, ExpressJS, MySQL, MongoDB, and deployed on AWS and Vercel. In this application, I had the opportunity to work as a backend developer.</p>
+
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Task :</h3>
                         <ul>
-                            <li class="font-medium text-base text-justify text-secondary">- CRU Login & Register</li>
-                            <li class="font-medium text-base text-justify text-secondary">- CRUD Lowongan Pekerjaan</li>
-                            <li class="font-medium text-base text-justify text-secondary">- CRU Analytics</li>
-                            <li class="font-medium text-base text-justify text-secondary">- CRUD Profile Perusahaan</li>
+                            <li class="font-medium text-base text-justify text-secondary">- JWT Auth Middleware</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD FeedBack</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Swagger</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Login User</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Real-Time Message</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Testing use Jest</li>
                         </ul>  
                         <br>
 
-                        <a href="http://headhunter.hrcerdas.id" class="font-bold text-primary" target="_blank">Link Website</a>
+                        <a href="https://ecci.vercel.app/" class="font-bold text-primary" target="_blank">Link Website</a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Hris.jpeg" alt="Landing Page" width="w-full">
+                    </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Hris Academy</h3>
+
+                        <p class="font-medium text-base text-justify text-secondary">Hris Academy is an employee management application with various roles, including superadmin, admin, HR, manager, and employees. It features employee attendance monitoring. This application employs React for the frontend, Express, and Golang for the backend. The database management utilizes MySQL, and it is deployed using both Vercel and AWS.</p>
+
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Task :</h3>
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- JWT Auth</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD User</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Devisi</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Edit Completeness of Documents User</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Documentation Swagger</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Manage Project</li>
+                        </ul>  
+                        <br>
+
+                        <a href="https://api.project2.otixx.online/api-docs/" class="font-bold text-primary" target="_blank">Link Website</a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/Mangement_Stock.png" alt="Landing Page" width="w-full">
+                    </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Management Stock</h3>
+
+                        <p class="font-medium text-base text-justify text-secondary">Stock Management is a product stock management application with features for adding and removing products, increasing and decreasing stock, and the ability to assign multiple categories to each product. This application operates and can be accessed through the terminal or console. It is built using ExpressJS, Prisma ORM, MySQL, and MongoDB technologies.</p>
+
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Task :</h3>
+                        <ul>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Categories</li>
+                            <li class="font-medium text-base text-justify text-secondary">- CRUD Product</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Monitoring Response use MongoDB</li>
+                            <li class="font-medium text-base text-justify text-secondary">- Manage Project</li>
+                        </ul>  
+                        <br>
+
+                        <a href="https://github.com/Kelompoklimas/Management_stok" class="font-bold text-primary" target="_blank">Link Website</a>
                 </div>
             </div>
-            
         </div>
     </section>
     <!-- Portofolio End -->
@@ -228,7 +278,7 @@
             <div class="w-full px-4">
                 <div class="mx-auto text-center mb-16">
                     <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Clients</h4>
-                    <h2 class="font-semibold text-lg  text-white  mb-4 dark:text-dark">Pernah Kerjasama</h2>
+                    <h2 class="font-semibold text-lg  text-white  mb-4 dark:text-dark">Have Collaborated</h2>
                     <!-- <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit libero aspernatur eos. Voluptatum quam, doloremque repudiandae fugit id recusandae consequuntur sint blanditiis, numquam ipsam dolorum assumenda error? Animi, recusandae?</p> -->
                 </div>
             </div>
@@ -249,7 +299,7 @@
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-lg mx-auto text-center mb-16">
-                    <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Pengalaman</h4>
+                    <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Experience</h4>
                     <!-- <h2 class="font-semibold text-lg  text-dark  mb-4">Cerita Terkini</h2> -->
                     <!-- <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit libero aspernatur eos. Voluptatum quam, doloremque repudiandae fugit id recusandae consequuntur sint blanditiis, numquam ipsam dolorum assumenda error? Animi, recusandae?</p> -->
                 </div>
@@ -290,7 +340,7 @@
                                 <li class="font-medium text-base text-justify text-secondary">- Develop Lab-Online Mobile with React Native (Android) </li>
                             </ul> 
                             <br> 
-                            <!-- <a href="https://andromedia.co.id/" target="_blank" class="font-medium text-sm text-white bg-primary py-2 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a> -->
+                            <a href="https://andromedia.co.id/" target="_blank" class="font-medium text-sm text-white bg-primary py-2 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -299,6 +349,98 @@
         </div>
     </section>
     <!-- pengalaman End -->
+
+    <!-- skill Start -->
+    <section id="Skill" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-lg mx-auto text-center mb-16">
+                    <h4 class="font-bold text-3xl text-primary mb-2 sm:text-4xl lg:text-5xl">Skills</h4>
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div class="py-8 px-6 text-center">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Language</h3>
+                            <div class="flex flex-wrap justify-between">
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=js" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=html" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=css" width="80" height="80" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div class="py-8 px-6 text-center">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Framework & Database</h3>
+                            <div class="flex flex-wrap justify-between">
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=next" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=react" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=express" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=nest" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=mysql" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=mongodb" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=sequelize" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=prisma" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=postgres" width="80" height="80" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <div class="py-8 px-6 text-center">
+                            <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Deploy</h3>
+                            <div class="flex flex-wrap justify-between">
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=aws" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=docker" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=linux" width="80" height="80" />
+                                </div>
+                                <div class="w-1/5 mb-4">
+                                    <img src="https://skillicons.dev/icons?i=git" width="80" height="80" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill End -->
 
     <!-- blog Start -->
     <!-- <section id="blog" class="pt-36 pb-32 bg-slate-100">
@@ -390,10 +532,10 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-                    <h2 class="font-bold text-4xl text-white mb-5">Information Saya</h2>
-                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
-                    <p>Rajhk704@gmail.com</p>
-                    <p>jl.Basukirahmat Perum Muktisari</p>
+                    <h2 class="font-bold text-4xl text-white mb-5">My information</h2>
+                    <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
+                    <p>rajih.kharissuha01@gmail.com</p>
+                    <!-- <p>jl.Basukirahmat Perum Muktisari</p> -->
                     <p>Jember</p>
                 </div>
                 <div class="w-full px-4 mb-12 md:w-1/3">
